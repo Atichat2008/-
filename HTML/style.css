@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('wall.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+    display: flex;               /* จัดให้อยู่ตรงกลาง */
+    flex-direction: column;      /* เรียงจากบนลงล่าง */
+    justify-content: center;     /* จัดกลางแนวตั้ง */
+    align-items: center;         /* จัดกลางแนวนอน */
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+}
+
+#startBtn {
+    padding: 20px 60px;
+    font-size: 28px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startBtn:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
